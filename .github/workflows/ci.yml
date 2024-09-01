@@ -11,9 +11,12 @@ jobs:aname: CI Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+    - 'main' 
   pull_request:
-    branches: [ main ]
+    branches: 
+    - 'main'
+    - 'edits'
 
 jobs:
   build:
