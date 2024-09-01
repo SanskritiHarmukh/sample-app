@@ -5,4 +5,4 @@ def test_home():
     with app.test_client() as client:
         response = client.get('/')
         assert response.status_code == 200
-        assert b'Greetings Hackbyte Hackers' in response.data
+        assert b'Greetings fellas' in response.data
