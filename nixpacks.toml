@@ -1,0 +1,4 @@
+[build]
+cmd = "pip3 install -r app/requirements.txt"
+[start]
+cmd = "python app/main.py"
