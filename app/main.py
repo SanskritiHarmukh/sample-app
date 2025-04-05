@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     out = (
-        f'Hello Hackbyte!\n'
+        f'Hey Hackbyte!\n'
     )
     return out
  
